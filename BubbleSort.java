@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+// o primeiro laço possui 5 iterações e o segundo 4 iterações. Pelo segundo está interno ao primeiro,
+// ele será executado 5X4 vezes, totalizando 20 iterações. Independente do cenário, todas as comparações
+// serão realizadas. 
+
 public class BubbleSort {
     public static void main(String[] args) {
         int X[] = new int[5];
@@ -24,7 +28,7 @@ public class BubbleSort {
         }
 
         for (i = 0; i <= 4; i++) {
-            System.out.println((i+1) + "número: " + X[i]);
+            System.out.println((i+1) + " número: " + X[i]);
         }
     }
 }
