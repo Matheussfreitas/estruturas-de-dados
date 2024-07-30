@@ -17,7 +17,11 @@ public class BubbleSort {
 
         scanner.close();
 
+        //ordenando de forma crescente
+        //laço com quantidade de elementos do vetor
         for (n = 1; n <= 5; n++) {
+            //laço que percorre da primeira à 
+            //penúltima posição do vetor
             for (i = 0; i <= 3; i++) {
                 if (X[i] > X[i+1]) {
                     aux = X[i];

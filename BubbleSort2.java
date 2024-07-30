@@ -13,7 +13,10 @@ public class BubbleSort2 {
 
         scanner.close();
 
+        //ordenando de forma crescente
+        //laço com quantidade de elementos do vetor -1
         for (j = 1; j <= 4; j++) {
+            //laço que percorre a ultima posição do vetor j
             for (i = 4; i >= j; i--) {
                 if (X[i] < X[i - 1]) {
                     aux = X[i];
